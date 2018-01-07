@@ -1,0 +1,180 @@
+/* GENERAL
+**********/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #0A100D;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Typography
+*************/
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  color: #05386B;
+}
+
+p {
+  margin: 0.25em 1em;
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+
+/* HELPER CLASSES 
+***************/
+.textCenter {
+  text-align: center;
+}
+
+
+/*PAGE: Index.html
+******************/
+
+/* Left Column */
+#leftColumn {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  background: #5CDB95;
+  background-image: url('/image/3px-tile.png');
+  font-family: Quicksand, sans-serif;
+  border-right: 2px solid #379683;
+}
+
+#leftColumnInner {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 90px 10px 10px;
+  width: 80%;
+  max-width: 300px;
+  background: #EDF5E1;
+  border-radius: 5px;
+  border: 2px solid #05386B;
+}
+
+#portraitWrapper {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  max-width: 150px;
+}
+
+#portrait {
+  border-radius: 50%;
+  border: 2px solid rgb(4, 50, 95);
+}
+
+#nameText {
+  padding: 0;
+  margin: 0;
+  font-size: 2.25em;
+  font-weight: 600;
+  color: #05386B;
+}
+
+#taglineText {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #666;
+}
+
+/*Right Column*/
+#rightColumn {
+  float: right;
+  width: 60%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(171, 226, 192);
+  background-image: url('/image/p1.png');
+  background-attachment: fixed;
+}
+
+#aboutMe {
+  padding: 20px;
+  margin: 20px auto;
+  width: 85%;
+  background: #EDF5E1;
+  border-radius: 2px;
+  border: 1px solid #379683;
+  box-shadow: -3px 3px 20px 1px #666;
+}
+
+#interestList {
+  padding: 5px 0 10px;
+  margin: 0 auto;
+  max-width: 400px;
+  vertical-align: center;
+}
+
+#interestList li {
+  display: inline-block;
+  width: 25%;
+  padding: 0;
+  margin: 0 3.5%;
+}
+
+#interestList img {
+  vertical-align: middle;
+}
+
+#portfolioList {
+  overflow: auto;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+#portfolioList li {
+  float: left;
+  width: 45%;
+  padding: 0;
+  margin: 2.5%;
+}
+
+#portfolioList li:nth-child(4) {
+  clear: right;
+}
+
+#portfolioList p {
+  text-align: center;
+  font-size: 0.875em;
+  color: #666;
+}
+
+#portfolioList p:hover {
+  color: #0A100D;
+}
+
+#portfolioList img {
+  border: 1px solid #379683;
+}
+
+#portfolioList img:hover {
+  box-shadow: 0 0px 10px 2px #379683;
+}
+

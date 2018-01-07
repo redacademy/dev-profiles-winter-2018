@@ -1,0 +1,291 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body{
+    font-family: "Loto", sans-serif;
+}
+
+h1,
+h2,
+h3,{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+/*Break Style*/
+
+.hr-text {
+    line-height: 1.5em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    height: 1.5em;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.hr-text::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 15rem;
+    height: .25rem;
+    top: 50%;
+    margin: 0 auto;
+}
+
+.hr-text::after {
+    content: '*';
+    font-family: "Bungee Outline";
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    padding: 0 .5em;
+    line-height: 1em;
+}
+  
+.profile {
+    width: 100%;
+}
+
+/* Header Style */
+
+header {
+    background: #18BC9C;
+}
+
+.main-head{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+}
+
+.profile-photo {
+    margin: 0 auto 2rem auto;
+    display: block;
+    border: 7px solid #2C3E50;
+    border-radius: 50%;
+    max-width: 200px;
+    width: 40%;
+}
+
+.main-head h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-head h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.3rem;
+    color: #fff;    
+}
+
+/* General Content Style */
+
+.content {
+    background: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+}
+
+.content h2 {
+    font-size: 2.25rem;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 1rem;
+    font-family: "Loto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+/* Before RED Section Style */
+
+.before-red {
+    padding-bottom: 3rem;
+}
+
+/* Facts About Me Section Style */
+
+.facts {
+    background: #18BC9C;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.gallery {
+    border: none;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border: 7px solid #fff;
+}
+
+.desc p {
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.responsive {
+    padding: 0 .25rem;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .responsive {
+        width: 50%;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Future Goals Section Style */
+
+.goals {
+    padding-top: 3rem;
+}
+
+.goals ul {
+    list-style: none;
+    color: #2C3E50;
+}
+
+.goals li {
+    font: bold 3rem "Motserrat", sans-serif;
+    position: relative;
+    padding-left: 1rem; 
+    margin-bottom: .75rem;
+}
+
+.goals li h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #212529;
+    padding-left: 3rem;
+    padding-top: 1.2rem;
+    line-height: 1.5em;
+}
+
+.goals li p {
+    font-family: "Loto", sans-serif;
+    color: #212529;
+    font-style: italic;
+    margin-left: 2rem;
+    padding-top: 1.2rem;
+}
+
+span {
+    position: absolute;
+    line-height: 1.5em;
+}
+
+/* General Footer Style */
+
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #2C3E50;
+}
+
+.footer h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+/* General Color Style */
+
+.text-primary {
+    color: #2C3E50;
+}
+.text-secondary {
+    color: #fff;
+}
+
+.primary::before {
+    background: #fff;
+}
+
+.primary::after {
+    color: #fff;
+    background: #18BC9C;
+}
+
+.secondary::before {
+    background: #2C3E50;
+}
+
+.secondary::after {
+    color: #2C3E50;
+    background: #fff;
+}
+
+/* Footer Buttons Style */
+
+.btn {
+    background: #18BC9C;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Loto", sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    box-sizing: content-box;
+}
+.btn:hover, btn:focus, btn:active {
+    background: #fff;
+    color: #2C3E50;
+}
