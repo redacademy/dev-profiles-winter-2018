@@ -1,0 +1,25 @@
+.header {
+    background-color: darkgray;
+    color: white;
+    width: 400px;
+    height: 800px;
+    position: fixed;
+    left: 2px;
+    display: inline-block;
+    align-content: center;
+}
+
+.body {
+    color: black;
+    width: 700px;
+    position: relative;
+    left: 400px;
+}
+
+.picture {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #main {
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .navigation li {
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+
+  #banner {
+    background-image: url('photos/sunset-1687168_1920.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+
+  h3 {
+    color: rgb(50, 38, 54);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+#ning {
+      width: 20%;
+      height: 20%;
+  }
+
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 10px 20px;
+    min-width: 200px;
+    max-width: 600px;
+    margin: 0 auto;
+  
+  }
+
+  .findme {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
