@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+headings {
+  font-size: 30px;
+}
+
+
+.ericPic {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.petFlex {
+  flex-direction: row;
+}
+
+img {
+ image-orientation: 0deg;
+}

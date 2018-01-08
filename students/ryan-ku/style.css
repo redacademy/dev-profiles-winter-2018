@@ -1,0 +1,120 @@
+/* Body */
+
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #ffffff;
+  font-family: Tahoma;
+}
+
+i {
+  margin-right: 0.5em;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 20.0px;
+  background-color: #002266;
+}
+
+h1.full-name {
+  padding: 5.0px;
+  background-color: #002266;
+  color: #ffffff;
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+/* Section */
+
+section {
+  padding: 20.0px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+img.portrait {
+  display: block;
+  margin: auto;
+  height: 10.0em;
+  width: 10.0em;
+  border: 20px solid #002266;
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat; 
+}
+
+h3 {
+  color: #000000;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3.location {
+  color: #000000;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+p {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 1.0em;
+  font-weight: bold;
+  padding: 20.0px;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20.0px;
+  background-color: #002266;
+}
+
+li.profile-link {
+  padding: 5.0px;
+  color: #ffffff;
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-decoration: none;
+
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-decoration: none;
+}

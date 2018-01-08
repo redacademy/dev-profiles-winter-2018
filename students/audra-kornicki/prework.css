@@ -1,0 +1,87 @@
+#outer-box {
+  width: 700px;
+  height: 1250px;
+  padding: 25px;
+  margin: auto;
+  border-radius: 80px;
+  border: rgb(253, 175, 29) 6px solid;
+  background-color: rgb(2, 2, 2);
+  opacity: 0.85;
+}
+
+body {
+  background-image: url("mm9.jpg");
+  font-family: "Courier New";
+}
+
+h1 {
+  margin: 50px auto 2px;
+  font-family: "Andale Mono";
+  color: white;
+  font-size: 64px;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+h2 {
+  margin: 8px auto 3px;
+  font-family: Courier;
+  color: rgb(253, 175, 29);
+  font-size: 29px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+}
+
+h3 {
+  margin: 70px 33px 10px;
+  font-family: "Andale Mono";
+  color: rgb(253, 175, 29);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+h4 {
+  margin: 20px 30px 15px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  color: white;
+}
+
+p {
+  margin: 25px 30px 15px;
+  font-size: 18px;
+  line-height: 25px;
+  color: white; 
+}
+
+ul {
+  margin: 40px;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-family: Courier;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+  height: 150px;
+  opacity: 1;
+}
+
+a {
+  color: white;
+}
+
+
